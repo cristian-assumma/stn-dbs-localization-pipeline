@@ -1,0 +1,16 @@
+# Dataset and Clinical Data
+data/
+*.mat
+*.csv
+*.edf
+
+# Python virtual environment
+venv/
+.env
+__pycache__/
+*.pyc
+
+# System files e IDE config
+.DS_Store
+.vscode/
+.idea/
