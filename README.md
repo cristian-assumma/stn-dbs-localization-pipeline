@@ -63,6 +63,7 @@ Neural signal properties (like RMS and amplitude) are highly subject-dependent, 
 
 **Roadmap to Production:**
 To scale this proof-of-concept into a robust intraoperative tool, the next architectural milestone involves transitioning from absolute features to **Relative Baseline Calibration**. By implementing a dynamic buffer that calculates a statistical baseline during the initial cortical descent (non-STN), the pipeline will compute delta features (e.g., ΔRMS, Z-scores). This normalizes impedance variations across patients, stabilizing Sensitivity and Specificity independent of the hardware or specific patient anatomy.
+
 ---
 
 ## 🚀 Usage & Reproducibility (Docker Deployment)
