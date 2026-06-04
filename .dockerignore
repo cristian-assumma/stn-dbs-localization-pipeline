@@ -1,0 +1,9 @@
+# Privacy (GDPR/HIPAA)
+data/
+Results/
+
+# Cache e Virtual Env
+__pycache__/
+.pytest_cache/
+venv/
+*.mat
